@@ -1,0 +1,98 @@
+/* global setting */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* global style */
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #fdf6f0;
+    line-height: 1.4;
+}
+a {
+    text-decoration: none;
+}
+p {
+    margin: 0.75rem 0;
+}
+
+p, h3 {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+h2 {
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 1.4em;
+}
+h3 {
+  padding-bottom: 0.75em;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 2rem;
+  overflow: hidden;
+}
+
+
+
+#section{
+  background-color: #fdf6f0;
+}
+h2{
+  text-align: center;
+  padding: 10px 10px;
+}
+.primary-text {
+  color: #ff7600;
+}
+
+.items{
+  background:#fdf6f0;
+  color: #333;
+  padding: 20px;
+  margin: 10px ;
+  text-align: center;
+  float: left;
+}
+.item{
+  background: #f8e2cf;
+  width: 30%;
+}
+#box{
+  display: flex;
+  flex-flow: wrap;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  
+}
+.content-1,
+.content-2,
+.content-3 {
+  margin: 10px;
+  padding: 2% 2%;
+  width: 20%;
+
+}
+i{
+  float: left;
+  margin: auto;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  padding: 13px;
+  border-radius: 100%;
+  background-color: #f8e2cf;
+  background-size: auto;
+}
+.icons {
+  height: 140px;
+  display: flex;
+  align-items: center;
+  float: left;
+}
